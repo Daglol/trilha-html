@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    min-height: 579px;
+    width: 15%;
+    background-color:  rgb(151, 146, 173, 0.815);
+    padding: 10px 20px 0px;
+    left: 120px; position: absolute; top: 254px; width: 192px;
+}
+.header {
+    background-color:  rgb(151, 146, 173, 0.815);
+    min-height: 200px;
+    width: 1200px;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    width: 1160px;
+}
+.footer { 
+    background-color: rgb(151, 146, 173, 0.815);
+    min-height: 210px; 
+    margin: left;  
+}
+.tabela {
+    min-height: 100px;
+    margin: right;   
+    right: 950px; position: absolute; top: 670px; width: 200px;
+}
+.logoTransparente{
+    min-height: 400px;
+    margin: right;   
+    right: 1200px; position: absolute; top: 570px; width: 200px;
+}
+
+.logoInferior{
+    min-height: 400px;
+    margin: right;   
+    right: 1200px; position: absolute; top: 680px; width: 200px;
+}
+.maps{
+    left: 1344px; position: absolute; top: 688px;
+}
+.endereco{
+    left: 1100px; position: absolute; top: 670px;
+}
+.contato{
+    left: 800px; position: absolute; top: 670px;
+}

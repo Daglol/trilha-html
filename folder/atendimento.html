@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="baseAtendimento.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <br>
+                <li><a href="http://127.0.0.1:5500/principal.html" target="_self"> Página inicial</a></li>
+                <li><a href="http://127.0.0.1:5500/quemSomos.html" target="_self"> Mais sobre a empresa</a></li>
+                <li><a href="http://127.0.0.1:5500/atendimento.html" target="_self"> Atendimento</a></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img align="right" src="Iofem3.png" alt="" height="300">
+                <img align="left" src="olhos.png" height="250">
+            </div>
+
+            <div class="content">
+                <div>
+                    <img align="right" src="medico.png" alt="" height="300">
+                </div>
+                <div class="formulario">
+                    <form onsubmit="" method="get" name="contatoClientes">
+                        <h2>Deixe suas informações de contato!</h2>
+                        <label><strong>Nome: </strong></label><input type="text" name="name" /> <br>
+                        <label><strong>Email: </strong></label> <input type="email" name="email" /> <br>
+                        <label><strong>Mensagem: </strong></label>
+                        <textarea name="message"></textarea>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+                </div>
+                <div class="tables">
+                    <table align="center" border="0" cellspacing="0" height="300">
+                        <thead>
+                            <th>Serviços</th>
+                            <th>Segunda a sexta</th>
+                            <th>Preço</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Consulta</td>
+                                <td>08h - 17h</td>
+                                <td>R$100</td>
+                            </tr>
+                            <tr>
+                                <td>Topografia</td>
+                                <td>08h - 17h</td>
+                                <td>R$300</td>
+                            </tr>
+                            <tr>
+                                <td>Ceratometria</td>
+                                <td>08 - 17h</td>
+                                <td>R$200</td>
+                            </tr>
+                            <tr>
+                                <td>Cirurgia</td>
+                                <td>Agendado</td>
+                                <td>A consultar</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="footer">
+                <div class="logoInferior">
+                    <img id="logoTransp" src="logoTransp.png" alt="logo" widht="220" height="220">
+                </div>
+                <div class="contato">
+                    <h3 align="center"><u>CONTATO</u></h3>
+                    <p align="center"><strong>4002-8922</strong></p>
+                    <p align="center"><strong>OFTALMO@CONTATO.COM</strong></p>
+                </div>
+                <div class="endereco">
+                    <h3 align="right"><u>ENDEREÇO</u></h3>
+                    <p align="right"><strong>Rua Miguelzinho, 99</strong></p>
+                </div>
+
+                <div class="maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29261.707247230046!2d-46.21759204999999!3d-23.5428082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd8f61d74f1b5%3A0x3251ee4e6004e4a9!2sMercado%20Extra!5e0!3m2!1spt-BR!2sbr!4v1701825179708!5m2!1spt-BR!2sbr"
+                        width="209" height="209" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
